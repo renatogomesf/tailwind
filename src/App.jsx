@@ -1,10 +1,14 @@
-import './App.css'
+import "./App.css"
+
+
+import Background from "./AULAS/aula05/Background"
+
 
 function App() {
 
   return (
     <>
-      <h1 className='text-sm'>Hellow world</h1>
+      <Background></Background>
     </>
   )
 }
