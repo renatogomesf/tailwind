@@ -1,14 +1,14 @@
 import "./App.css"
 
 
-import Background from "./AULAS/aula05/Background"
+import LarguraAltura from "./AULAS/aula06/LarguraAltura"
 
 
 function App() {
 
   return (
     <>
-      <Background></Background>
+      <LarguraAltura></LarguraAltura>
     </>
   )
 }
