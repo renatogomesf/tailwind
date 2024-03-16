@@ -4,16 +4,20 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+
+  darkMode: 'media',
+
   theme: {
-    colors: {
-      renato: {
-        100:'#f0dc4e',
-        200:'#baa93b',
-        300:'#6d6321',
+    
+    extend: {
+      colors: {
+        renato: {
+          100:'#f0dc4e',
+          200:'#baa93b',
+          300:'#6d6321',
+        },
       },
     },
-
-    extend: {},
   },
   plugins: [],
 }

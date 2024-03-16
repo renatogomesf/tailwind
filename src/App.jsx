@@ -1,14 +1,12 @@
 import "./App.css"
 
-
-import ArquivDeConfig from "./AULAS/aula11/ArquivDeConfig"
-
+import DarkMode from "./AULAS/aula12/DarkMode"
 
 function App() {
 
   return (
     <>
-      <ArquivDeConfig></ArquivDeConfig>
+      <DarkMode></DarkMode>
     </>
   )
 }
