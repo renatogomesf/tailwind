@@ -1,14 +1,14 @@
 import "./App.css"
 
 
-import Responsividade from "./AULAS/aula09/Responsividade"
+import HoverFocus from "./AULAS/aula10/HoverFocus"
 
 
 function App() {
 
   return (
     <>
-      <Responsividade></Responsividade>
+      <HoverFocus></HoverFocus>
     </>
   )
 }
