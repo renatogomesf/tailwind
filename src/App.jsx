@@ -1,14 +1,14 @@
 import "./App.css"
 
 
-import HoverFocus from "./AULAS/aula10/HoverFocus"
+import ArquivDeConfig from "./AULAS/aula11/ArquivDeConfig"
 
 
 function App() {
 
   return (
     <>
-      <HoverFocus></HoverFocus>
+      <ArquivDeConfig></ArquivDeConfig>
     </>
   )
 }
