@@ -1,14 +1,14 @@
 import "./App.css"
 
 
-import LarguraAltura from "./AULAS/aula06/LarguraAltura"
+import Flexbox from "./AULAS/aula07/Flexbox"
 
 
 function App() {
 
   return (
     <>
-      <LarguraAltura></LarguraAltura>
+      <Flexbox></Flexbox>
     </>
   )
 }
