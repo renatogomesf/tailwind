@@ -1,14 +1,14 @@
 import "./App.css"
 
 
-import Grid from "./AULAS/aula08/Grid"
+import Responsividade from "./AULAS/aula09/Responsividade"
 
 
 function App() {
 
   return (
     <>
-      <Grid></Grid>
+      <Responsividade></Responsividade>
     </>
   )
 }
