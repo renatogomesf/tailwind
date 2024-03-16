@@ -1,14 +1,14 @@
 import "./App.css"
 
 
-import Flexbox from "./AULAS/aula07/Flexbox"
+import Grid from "./AULAS/aula08/Grid"
 
 
 function App() {
 
   return (
     <>
-      <Flexbox></Flexbox>
+      <Grid></Grid>
     </>
   )
 }
