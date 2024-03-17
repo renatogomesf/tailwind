@@ -1,6 +1,6 @@
 import "./App.css"
 
-import CompoCard from './AULAS/aula14, 15, 16, 17/CompoCard'
+import CompoCard from './AULAS/aula14, 15, 16, 17, 18/CompoCard'
 
 function App() {
 

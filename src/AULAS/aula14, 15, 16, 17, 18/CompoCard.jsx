@@ -3,8 +3,12 @@ import React from "react";
 import CompoButton from "./CompoButton";
 import CompoBadge_Tag from "./CompoBadge_Tag";
 import CompoInput from "./CompoInput";
+import CompoDropdown from "./CompoDropdown";
 
 export default function CompoCard() {
+
+    let save = 'save'
+
     return (
         <>
             <div className="space-y-2 container mx-auto px-4 py-8 bg-gray-100 ">
@@ -29,9 +33,11 @@ export default function CompoCard() {
 
                 </div>
 
-                <CompoButton></CompoButton>
+                <CompoButton nome={save}></CompoButton>
                 <br />
                 <CompoInput></CompoInput>
+                <br />
+                <CompoDropdown></CompoDropdown>
                 
             </div>
         </>

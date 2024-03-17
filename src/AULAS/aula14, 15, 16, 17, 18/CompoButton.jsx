@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function CompoButton() {
+export default function CompoButton(props) {
     return (
         <button className="
             bg-blue-400
@@ -11,7 +11,7 @@ export default function CompoButton() {
             shadow
             hover:bg-blue-600
         ">
-            Save
+            {props.nome}
         </button>
     )
 }
