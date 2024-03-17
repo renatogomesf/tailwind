@@ -1,11 +1,14 @@
 import "./App.css"
 
-import ClassCostumi from "./AULAS/aula13/ClassCostumi"
+
+import CompoCard from "./AULAS/aula14/CompoCard"
+
+
 function App() {
 
   return (
     <>
-      <ClassCostumi></ClassCostumi>
+      <CompoCard></CompoCard>
     </>
   )
 }
