@@ -1,12 +1,11 @@
 import "./App.css"
 
-import DarkMode from "./AULAS/aula12/DarkMode"
-
+import ClassCostumi from "./AULAS/aula13/ClassCostumi"
 function App() {
 
   return (
     <>
-      <DarkMode></DarkMode>
+      <ClassCostumi></ClassCostumi>
     </>
   )
 }
