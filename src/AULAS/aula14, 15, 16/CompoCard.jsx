@@ -1,13 +1,17 @@
 import React from "react";
 
 import CompoButton from "./CompoButton";
+import CompoBadge_Tag from "./CompoBadge_Tag";
 
 export default function CompoCard() {
     return (
         <>
             <div className="container mx-auto px-4 py-8 bg-yellow-300 dark:bg-gray-800">
 
-                <div className="mb-2 bg-white rounded-lg shadow-md overflow-hidden">
+                <CompoBadge_Tag></CompoBadge_Tag>
+
+                <div className="my-2 bg-white rounded-lg shadow-md overflow-hidden">
+
 
                     <div className="w-full bg-gray-100 p-4 border-b border-gray-200">
                         <h2 className="font-bold">Título do card</h2>
