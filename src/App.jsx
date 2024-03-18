@@ -1,13 +1,13 @@
 import "./App.css"
 
-import CompoCard from './AULAS/aula14, 15, 16, 17, 18/CompoCard'
+import TelaLogin from "./AULAS/aula19/TelaLogin"
 
 function App() {
 
   return (
-    <>
-      <CompoCard></CompoCard>
-    </>
+    <main className="w-screen h-screen bg-gray-300 flex justify-center items-center">
+      <TelaLogin></TelaLogin>
+    </main>
   )
 }
 
